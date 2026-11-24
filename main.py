@@ -6,7 +6,10 @@ $MAKEFUN_OUTPUT_DIR/entry.txt. Stdlib only.
 """
 import os
 
-ENTRY = "Approved. The alert is actionable, assuming anyone is still on call when it fires."
+ENTRY = (
+    "Approved. The alert is actionable, "
+    "assuming anyone is still on call when it fires."
+)
 
 
 def main() -> None:
